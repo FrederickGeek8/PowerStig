@@ -9,7 +9,7 @@ using namespace System.Text
     .SYNOPSIS
         Converts the xccdf check-content element into an audit policy object.
 #>
-class AuditPolicyRuleAdvancedConvert : AuditPolicyRule
+class AuditPolicyRuleAdvancedConvert : AuditPolicyRuleAdvanced
 {
     <#
         .SYNOPSIS
